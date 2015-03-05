@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4A6A5D51A995103009A4871 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4A6A5D41A995103009A4871 /* main.cpp */; };
+		E4B3E71F1A9AA43300605637 /* familyRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B3E7151A9AA43300605637 /* familyRunner.cpp */; };
+		E4B3E7201A9AA43300605637 /* familytree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B3E7171A9AA43300605637 /* familytree.cpp */; };
+		E4B3E7211A9AA43300605637 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = E4B3E71B1A9AA43300605637 /* Makefile */; };
+		E4B3E7221A9AA43300605637 /* QuadraticProbing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B3E71D1A9AA43300605637 /* QuadraticProbing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,24 @@
 
 /* Begin PBXFileReference section */
 		E4A6A5D11A995103009A4871 /* familyTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = familyTree; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4A6A5D41A995103009A4871 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E4B3E70E1A9AA43300605637 /* CPUTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPUTimer.h; sourceTree = SOURCE_ROOT; };
+		E4B3E70F1A9AA43300605637 /* CreateFile.out */ = {isa = PBXFileReference; lastKnownFileType = file; path = CreateFile.out; sourceTree = SOURCE_ROOT; };
+		E4B3E7101A9AA43300605637 /* family.out */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = family.out; sourceTree = SOURCE_ROOT; };
+		E4B3E7111A9AA43300605637 /* Family3-2-5-1.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Family3-2-5-1.csv"; sourceTree = SOURCE_ROOT; };
+		E4B3E7121A9AA43300605637 /* Family4-3-10-3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Family4-3-10-3.csv"; sourceTree = SOURCE_ROOT; };
+		E4B3E7131A9AA43300605637 /* Family10-10-10000-4.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Family10-10-10000-4.csv"; sourceTree = SOURCE_ROOT; };
+		E4B3E7141A9AA43300605637 /* Family15-10-10000-2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Family15-10-10000-2.csv"; sourceTree = SOURCE_ROOT; };
+		E4B3E7151A9AA43300605637 /* familyRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = familyRunner.cpp; sourceTree = SOURCE_ROOT; };
+		E4B3E7161A9AA43300605637 /* familyRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = familyRunner.h; sourceTree = SOURCE_ROOT; };
+		E4B3E7171A9AA43300605637 /* familytree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = familytree.cpp; sourceTree = SOURCE_ROOT; };
+		E4B3E7181A9AA43300605637 /* familytree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = familytree.h; sourceTree = SOURCE_ROOT; };
+		E4B3E7191A9AA43300605637 /* FemaleNames.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FemaleNames.csv; sourceTree = SOURCE_ROOT; };
+		E4B3E71A1A9AA43300605637 /* LastNames.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LastNames.csv; sourceTree = SOURCE_ROOT; };
+		E4B3E71B1A9AA43300605637 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = SOURCE_ROOT; };
+		E4B3E71C1A9AA43300605637 /* MaleNames.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MaleNames.csv; sourceTree = SOURCE_ROOT; };
+		E4B3E71D1A9AA43300605637 /* QuadraticProbing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuadraticProbing.cpp; sourceTree = SOURCE_ROOT; };
+		E4B3E71E1A9AA43300605637 /* QuadraticProbing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuadraticProbing.h; sourceTree = SOURCE_ROOT; };
+		E4B3E7261A9AAC9200605637 /* mystring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mystring.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +77,24 @@
 		E4A6A5D31A995103009A4871 /* familyTree */ = {
 			isa = PBXGroup;
 			children = (
-				E4A6A5D41A995103009A4871 /* main.cpp */,
+				E4B3E70E1A9AA43300605637 /* CPUTimer.h */,
+				E4B3E70F1A9AA43300605637 /* CreateFile.out */,
+				E4B3E7101A9AA43300605637 /* family.out */,
+				E4B3E7111A9AA43300605637 /* Family3-2-5-1.csv */,
+				E4B3E7121A9AA43300605637 /* Family4-3-10-3.csv */,
+				E4B3E7131A9AA43300605637 /* Family10-10-10000-4.csv */,
+				E4B3E7141A9AA43300605637 /* Family15-10-10000-2.csv */,
+				E4B3E7151A9AA43300605637 /* familyRunner.cpp */,
+				E4B3E7161A9AA43300605637 /* familyRunner.h */,
+				E4B3E7171A9AA43300605637 /* familytree.cpp */,
+				E4B3E7181A9AA43300605637 /* familytree.h */,
+				E4B3E7191A9AA43300605637 /* FemaleNames.csv */,
+				E4B3E71A1A9AA43300605637 /* LastNames.csv */,
+				E4B3E71B1A9AA43300605637 /* Makefile */,
+				E4B3E71C1A9AA43300605637 /* MaleNames.csv */,
+				E4B3E71D1A9AA43300605637 /* QuadraticProbing.cpp */,
+				E4B3E71E1A9AA43300605637 /* QuadraticProbing.h */,
+				E4B3E7261A9AAC9200605637 /* mystring.h */,
 			);
 			path = familyTree;
 			sourceTree = "<group>";
@@ -118,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4A6A5D51A995103009A4871 /* main.cpp in Sources */,
+				E4B3E7211A9AA43300605637 /* Makefile in Sources */,
+				E4B3E71F1A9AA43300605637 /* familyRunner.cpp in Sources */,
+				E4B3E7221A9AA43300605637 /* QuadraticProbing.cpp in Sources */,
+				E4B3E7201A9AA43300605637 /* familytree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +272,7 @@
 				E4A6A5DA1A995103009A4871 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
